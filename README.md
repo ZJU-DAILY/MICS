@@ -62,6 +62,7 @@ Predicting influenced expectations (**L-InfExp algorithm**).
 #### In InfCS folder
 
 Searching for the MIC with **GlobalSearch** and **LocalSearch** algorithm.
+SFIS: S-InfExp algorithm, ONPR: L-InfExp algorithm.
 
 ```shell
 ./InfCS -dataset=<dataset root> -subgraph=<subgraph root for scalability test> -model=IC -mode=<IM/Random/Inf> -func=<avg/min/max/sum> -seed=<number of seeds> -k=<indegree constraint> -l=<outdegree constraint> -s=<size constraint of MIC> -alg=approx -med=<global/local> -inf=<SFIS/ONPR> -p=<percentage of nodes>
